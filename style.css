@@ -6,7 +6,12 @@
 .curriculo{
     text-align:left;
     color: lawngreen;
+    text-decoration: none;
 }
 body{
     background-color: black;
+}
+.foto img{
+    max-width: 700px;
+    position: absolute;
 }
