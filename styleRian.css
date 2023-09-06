@@ -1,0 +1,21 @@
+* {
+    background-color: rgb(219, 219, 219);
+    font-family: 'Oswald', sans-serif;  
+    margin-bottom: 40px; 
+
+}
+
+h1{
+    text-align: center;
+}
+li{
+    text-align: center;
+    list-style: none;
+}
+h5{
+    text-align: center;
+}
+
+span{
+    color: grey;
+}
