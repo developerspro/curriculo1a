@@ -1,0 +1,12 @@
+.texto{
+    text-align: center;
+    color: lawngreen;
+}
+
+.curriculo{
+    text-align:left;
+    color: lawngreen;
+}
+body{
+    background-color: black;
+}
