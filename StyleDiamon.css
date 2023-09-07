@@ -1,0 +1,205 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    list-style: none;
+}
+.containier {
+display: flex;
+}
+.nome {
+    border: 0.1px solid black;
+    background-color: #124670;
+    width: 250px;
+    height: 650px;
+}
+
+.nome h1 , p{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.nome h1 {
+    padding-top: 60px;
+    padding-bottom: 15px;
+}
+
+.nome p {
+    padding-bottom: 10px;
+}
+
+.LINHA {
+    display: flex;
+    margin: auto;
+    width: 180px;
+    border: 1px solid #fff;
+    height: 1px;
+}
+
+.contato {
+    font-size: 12px;
+    color: #fff;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.telefo {
+    font-size: 12px;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+    right: 50px;
+
+}
+ li img {
+    position: relative;
+    top: 1,5px;
+     list-style: none;
+     width: 10%;
+     margin-right: 25px;
+ }
+
+
+ .email {
+    display: flex;
+    margin-top: 20px;
+ }
+
+
+ .linkedin {
+    display: flex;
+    margin-top: 20px;
+ }
+
+ .git-hub {
+    display: flex;
+    margin-top: 20px;
+ }
+
+ .Formacao {
+    font-size: 12px;
+    color: #fff;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 20px;
+ }
+
+ .medio {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 15px;
+ }
+
+ .etec
+  {
+   margin-top: 20px;
+   text-align: left;
+   font-size: 15px;
+   margin-left: 30px;
+  }
+
+.sobre-mim {
+    display: block;
+    color: #124670;
+    font-size: 12px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.sobre-mim p{
+    color: #222222;
+    font-size: 15px;
+    line-height: 25px;
+
+}
+
+
+.competencias {
+    display: block;
+    color: #124670;
+    font-size: 12px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.competencias h1 {
+margin-left: 100px;
+}
+
+.competencias span {
+    color: #124670;
+}
+
+.competencias p {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #222222;
+}
+
+.skills h1 {
+   display: flex;
+   margin-top: 50px;
+   position: relative;
+   right: 590px;
+}
+
+.comu {
+    position: relative;
+    right: 500px;
+    display: flex;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    height: 40%;
+    border: 1px solid #124670;
+    border-radius: 6px;
+}
+.comu h2 {
+    position: relative;
+    top: 20px;
+    left: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+position: relative;
+top: 80px;
+right: 60px;
+}
+
+.img p {
+    font-size: 15px;
+}
+.pro {
+    position: relative;
+    bottom: 240px;
+    right: 250px;
+    width: 50%;
+    height: 40%;
+    border: 1px solid #124670;
+    border-radius: 6px;
+}
+
+.pro h2 {
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.img1 {
+position: relative;
+top: 60px;
+left: 55px;
+    }
+
+.paragrafo{
+    display: flex;
+    position: relative;
+    top: 70px;
+}
