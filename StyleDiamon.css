@@ -5,18 +5,28 @@
     box-sizing: border-box;
     font-family: 'Roboto Condensed', sans-serif;
     list-style: none;
+    margin-bottom: 0px;
 }
 .containier {
-display: flex;
+    display: flex;
+
 }
+
+
 .nome {
-    border: 0.1px solid black;
+    border: 0.1px solid #124670;
+    border-radius: 2px;
     background-color: #124670;
     width: 250px;
-    height: 650px;
+    height: 720px;
+}
+
+.nome1 {
+    font-family: 'Barlow', sans-serif;
 }
 
 .nome h1 , p{
+    
     display: flex;
     justify-content: center;
     color: #fff;
@@ -85,7 +95,7 @@ display: flex;
     font-size: 12px;
     color: #fff;
     display: flex;
-    margin-top: 40px;
+    margin-top: 65px;
     margin-left: 20px;
  }
 
@@ -112,9 +122,10 @@ display: flex;
 }
 
 .sobre-mim p{
-    color: #222222;
+    font-family: 'Barlow', sans-serif;
+    color: #000000;
     font-size: 15px;
-    line-height: 25px;
+    line-height: 30px;
 
 }
 
@@ -135,8 +146,10 @@ margin-left: 100px;
 }
 
 .competencias p {
+    font-family: 'Barlow', sans-serif;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 20px; 
+    line-height: 30px;
     color: #222222;
 }
 
@@ -174,32 +187,12 @@ right: 60px;
 
 .img p {
     font-size: 15px;
-}
-.pro {
-    position: relative;
-    bottom: 240px;
-    right: 250px;
-    width: 50%;
-    height: 40%;
-    border: 1px solid #124670;
-    border-radius: 6px;
+    font-family: 'Barlow', sans-serif;
 }
 
-.pro h2 {
-    position: relative;
-    top: 20px;
-    display: flex;
-    justify-content: center;
-}
-
-.img1 {
-position: relative;
-top: 60px;
-left: 55px;
-    }
-
-.paragrafo{
-    display: flex;
-    position: relative;
-    top: 70px;
+.comu:hover {
+    margin-top: 30px;
+    box-shadow: 5px 10px #555555;
+    transform: scale(1.2);
+    transition: 1s;
 }
