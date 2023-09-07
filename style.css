@@ -1,17 +1,22 @@
 .texto{
     text-align: center;
     color: lawngreen;
+    
 }
 
 .curriculo{
     text-align:left;
     color: lawngreen;
     text-decoration: none;
+    margin-top: 10px;
 }
 body{
     background-color: black;
 }
+
+
 .foto img{
-    max-width: 700px;
-    position: absolute;
+    width: 70%;
+    display: flex;
+    margin: auto;
 }
