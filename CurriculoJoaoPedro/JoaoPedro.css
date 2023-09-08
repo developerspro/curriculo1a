@@ -27,7 +27,10 @@ h1:hover{
     line-height: 2;
     max-height: max-content;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    height: 600px;
+    height: 800px;
+    background-color: purple;
+    color: white;
+    
     
     
     
@@ -47,4 +50,8 @@ h2{
 img{
     max-width: 10%;
    
+}
+.container2:hover{
+
+    color:cyan;
 }
