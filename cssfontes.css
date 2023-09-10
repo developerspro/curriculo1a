@@ -1,0 +1,299 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+/*cabeçalho */
+.cabecalho {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(0, 98, 143);
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+.icones {
+    position: relative;
+    display: flex;
+    width: 30px;
+    padding-right: 75px;
+    padding-top: 30%
+}
+
+
+
+
+
+
+
+
+
+
+/*divisão lateral*/
+
+.container-informacoes {
+    position: absolute;
+    background-color: rgb(0, 60, 88);
+    width: 400px;
+    height: 900px;
+}
+.container-nome{
+    position: relative;
+
+}
+.container-nome2{
+    position: relative;
+    bottom: 20px;
+}
+.container-contatos {
+    margin-top: 100px;
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+
+}
+
+.info-lateral {
+    font-family: 'montserrat';
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.nome {
+    margin-top: 100px;
+    font-weight: 900;
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'montserrat';
+    color: white;
+    font-size: 25px;
+}
+.nome2{
+    font-weight: 200;
+    text-align: center;
+    font-family: 'montserrat';
+    color: white;
+    font-size: 25px;
+    position: relative;
+}
+
+
+
+
+.idade {
+    font-weight: 600;
+    text-align: start;
+    margin-left: 30px;
+    font-family: 'montserrat';
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    position: absolute;
+    margin-top: 40px;
+    text-align: left;
+}
+.endereco{
+    font-weight: 600;
+    text-align: start;
+    margin-left: 30px;
+    font-family: 'montserrat';
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    position: absolute;
+    margin-top: 100px;
+    text-align: left;
+}
+
+.civil{
+    font-weight: 600;
+    text-align: start;
+    margin-left: 30px;
+    font-family: 'montserrat';
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    position: absolute;
+    margin-top: 160px;
+    text-align: left;
+}
+
+
+.contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+
+
+
+
+.h1-contato {
+    font-family: 'montserrat';
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding-top: 200px;
+    font-weight: 900;
+    text-align: center;
+}
+/* linhas da divisão azul lateral   */
+.linha{
+    width: 300px;
+    height: 2px;
+    position: relative;
+    top: -20px;
+    left: 11%;
+    background-color: rgb(0, 98, 143); ;
+}
+.linha2{
+    width: 300px;
+    height: 2px;
+    position: relative;
+    top: 200px;
+    left: 6%;
+    background-color: rgb(0, 98, 143); ;
+}
+
+
+/*fim divisão lateral*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*inicio do container principal do curriculo*/
+
+
+
+.container-principal {
+    display: flex;
+    position: relative;
+    width: 79%;
+    height: 900px;
+    left: 21%;
+    background-color: rgb(255, 255, 255);
+}
+.container-competencias{
+    position: absolute;
+    display: flex;
+    left: 800px;
+    top: 300px;
+    height: auto;
+    width: 542px;
+
+}
+.container-sobre-mim {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    width: 1250px;
+    top: 12%;
+    left: 5%;
+}
+.container-formacao {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 542px;
+    top: 300px;
+    left: 5%;
+    height: fit-content;
+}
+.container-experiencia{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 542px;
+    top: 600px;
+    left: 17%;
+    height: fit-content;
+}
+.h1-sobre-mim{
+    width: auto;
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 98, 143);
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.h1-formacao {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 98, 143);
+}
+.h1-competencias{
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 98, 143);
+}
+.h1-experiencia{
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 98, 143);
+}
+.p-experiencia{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(88, 88, 88);
+    width: ;
+    text-align: justify;
+    font-weight: bolder;
+    position: absolute;
+    margin-top: 100px;
+
+}
+.p-sobre-mim {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(88, 88, 88);
+    text-align: justify;
+    font-weight: bolder;
+    position: absolute;
+}
+.p-formacao {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(88, 88, 88);
+    text-align: justify;
+    font-weight: bolder;
+    position: absolute;
+    margin-top: 100px;
+}
+.p-competencias{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(88, 88, 88);
+    width: ;
+    text-align: justify;
+    font-weight: bolder;
+    position: absolute;
+    margin-top: 100px;
+}
