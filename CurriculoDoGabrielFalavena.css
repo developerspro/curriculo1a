@@ -1,0 +1,39 @@
+.content {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(196, 188, 179);
+    margin-top:0%;
+    padding: 0%;
+    height: 450px;
+   
+  
+   
+}
+
+
+.content img{
+   width: 160px;
+   height: 160px;
+}
+
+
+p{
+ font-family: Arial, Helvetica, sans-serif;
+ margin-left: 25px;
+
+}
+
+
+h2{
+margin-left: 25px;
+
+}
+
+
+html, body {
+   
+   height: 100%;
+   margin: 0px;
+   padding: 0;
+}
