@@ -1,0 +1,50 @@
+html{
+    background-color:rgba(12, 32, 40, 1);
+    }
+
+header{
+    background-color:rgba(254, 254, 256, 0.200);
+    color:rgba(200, 220, 226, 0.8);
+    margin-top: 48px;
+    margin-bottom: 12px;
+    border-color:rgba(200, 220, 226, 0.4);
+    border-top-style: solid;
+    border-bottom-style: solid;
+    }
+
+.main{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.info{
+    background-color:rgba(254, 254, 256, 0.280);
+    color:rgba(200, 220, 226, 0.8);
+    padding-top: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin:12px;
+    }
+
+.info2{
+    ackground-color:rgba(254, 254, 254, 0.200);
+    padding-left: 8px;
+    padding-right: 8px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    }
+
+.fe{
+    padding-right: 540x;
+    }
+
+.infocl{
+    padding-left: 8px;
+    padding-right: 8px;
+    }
+
+    a {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgba(200, 220, 226, 0.8);;
+    }
