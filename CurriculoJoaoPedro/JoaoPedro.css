@@ -4,9 +4,14 @@
 }
 body{
 
-    background-color: rgb(255, 255, 255)
+    background-color:whitesmoke;
 
 
+}
+hr{
+    height: 1px;
+    background-color: black;
+    border: none;
 }
 
 header{
@@ -14,7 +19,7 @@ header{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    background-color: darkslateblue;
+    background-color:midnightblue;
     color: rgb(255, 255, 255);
 }
 
@@ -25,81 +30,69 @@ h1{
     
     
 }
-h1:hover{
-
-    color: aqua;
-}
-
-
-
-
-
 h2{
     color: black;
-    text-align: center;
+    text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     font-size: 30px;
     
 }
-P{
 
-    font-size: 15pt;
-    color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 20px;
-    text-align: justify;
-    
-    
-    
-    
-}
 .container{
     display: flex;
     flex-flow: row wrap;
-    justify-content: justify;
-    background-color: rgb(92, 89, 108);
-    width:  55%;
+    
+    width:  70%;
     margin: auto;
-    border-style: solid;
-    border-color: black;
-    border-radius: 10px;
-    
-   
    
     
+    
+     
 
 }
 
 .item{
     flex:1 1 350px;
     
-    margin: 100px;
+    margin: 30px;
     text-align: justify;
     border-width: 1px;
-    background-color: rgb(187, 177, 253);
-    padding-bottom: 50px;
-    
+    background-color:rgb(206, 206, 206);
+    padding-top: 30px;
     
    
-    
-    
-    
-    
 
 }
-
-
 p{
 
+    
+
     display: block;
-    width: 100%;  
-    color:  black; 
     
-    
-   
+     width: 100%;  
+    color:  black;   
+    font-size: 15pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding-bottom: 10px;
 }
 
+span{
+    display: block;
+    
+    width: 100%;
+    font-size: 15pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding-bottom: 10px;
+    
+}
+.item1{
 
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    max-width: 500px;
 
-
+}
