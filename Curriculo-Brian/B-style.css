@@ -1,0 +1,42 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(lightgrey);
+}
+header {
+    background: rgb(152, 249, 235);
+    width: auto;
+    padding: 2px 0 0 20px;
+    text-align: center;
+    border: 1px solid;
+}
+
+.meu-cabecalho {
+   width: auto;
+   height: 100px;
+   justify-content: center;
+}
+img {
+    margin: 10px 0 0 0;
+    position: relative;
+    right: 8.4em;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.container-conteudo {
+    text-align: center;
+
+    line-height: 1em;
+    width: auto;
+}
+h2 {
+    font-weight: bold;
+    margin: 50px 0 0  0 ;
+}
+li p {
+    line-height: 2em;
+}
+.container-contato {
+    margin: 0 0 0 10px ;
+    text-align: center;
+}
