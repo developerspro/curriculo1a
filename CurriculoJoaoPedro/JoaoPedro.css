@@ -4,7 +4,7 @@
 }
 body{
 
-    background-color: white
+    background-color: rgb(255, 255, 255)
 
 
 }
@@ -15,7 +15,7 @@ header{
     flex-flow: row wrap;
     justify-content: center;
     background-color: darkslateblue;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 h1{
@@ -38,27 +38,32 @@ h2{
     color: black;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
+    font-size: 30px;
     
 }
 P{
 
-    font-size: 13pt;
-    color: white;
+    font-size: 15pt;
+    color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 20px;
     text-align: justify;
-    align-self: auto;
+    
+    
     
     
 }
 .container{
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
-    
-    width:  85%;
+    justify-content: justify;
+    background-color: rgb(92, 89, 108);
+    width:  55%;
     margin: auto;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
     
    
    
@@ -70,13 +75,13 @@ P{
     flex:1 1 350px;
     
     margin: 100px;
-    text-align: inherit;
+    text-align: justify;
     border-width: 1px;
-    border-style: solid;
-    border-color: blueviolet;
-    padding-bottom: 100px;
-    border-radius: 50px;
-    border-width: 10px;
+    background-color: rgb(187, 177, 253);
+    padding-bottom: 50px;
+    
+    
+   
     
     
     
@@ -90,6 +95,7 @@ p{
     display: block;
     width: 100%;  
     color:  black; 
+    
     
    
 }
