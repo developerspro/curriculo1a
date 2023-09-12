@@ -1,0 +1,26 @@
+.texto{
+    text-align: center;
+    color: lawngreen;
+    
+}
+
+.curriculo{
+    text-align:left;
+    color: lawngreen;
+    text-decoration: none;
+    margin-top: 10px;
+}
+body{
+    background-color: black;
+}
+
+
+ul li a{
+	text-decoration: none;
+}
+
+.foto img{
+    width: 70%;
+    display: flex;
+    margin: auto;
+}
