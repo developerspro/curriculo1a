@@ -1,0 +1,27 @@
+
+body{
+    background-color: rgb(15, 15, 44);
+    color: rgba(88, 158, 201);}
+.Alfa{background-color :rgba(45, 130, 200, 0.5);
+    font-family: 'Times New Roman', Times, serif;
+    border-top-style: double;
+    border-bottom-style: double;
+    border-color: rgb(4, 0, 253);}
+
+.Bravo{
+    background-color :rgba(45, 130, 200, 0.5);
+    font-family:'Courier New', Courier, monospace;
+    border-style: double;
+    border-color: rgb(4, 0, 253);
+    margin-top: 12px;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.Charlie{
+    display: flex;
+    justify-content: space-between;
+    border-bottom-style:groove;
+    border-color: rgba(45, 130, 200, 0.5);
+    margin: 12px;}
