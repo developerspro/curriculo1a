@@ -24,14 +24,19 @@ img {
 }
 
 .container-conteudo {
+    display: grid;
+    grid-template-columns: 1;
     text-align: center;
     line-height: 1em;
-    width: 900px;
-    margin-left: 500;
+    margin-left: 300;
+    margin-right: 300;
+    
+
+
 }
 h2 {
     font-weight: bold;
-    margin: 50px 0 0  0 ;
+    margin: 25px 0 25px  0 ;
 }
 li p {
     line-height: 2em;
