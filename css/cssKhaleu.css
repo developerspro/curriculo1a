@@ -14,7 +14,9 @@ p{
     margin-top: 7px;
     font-weight: bold;
 }
-
+a{
+    text-decoration: none;
+}
 header{
     background-color: #010409;
     color: #010409;
@@ -56,21 +58,17 @@ header{
 }
 
 
-
 nav{
     background-color: #010409;
     display: flex;
     flex-wrap: nowrap;
     padding: 16px;
     padding-bottom: 10px;
-    
 }
-
 #sm{
     padding-right: 25px;
 
 }
-
 .livrinho{
     margin-top: 5px;
     margin-right: 3px;
@@ -136,7 +134,7 @@ nav{
 h3{
         color: white;
 }
-.container3 {
+.dentrodo3 {
     margin-left: 232px;
 }
 .Contatos{
@@ -159,4 +157,8 @@ h1{
     margin:auto;
     margin-top: 25px;
     width: 64px;
+}
+
+.container3{
+    display: flex;
 }
