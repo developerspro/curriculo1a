@@ -1,0 +1,48 @@
+.curriculo {
+          text-align: center;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+
+body {
+          background: url(https://wallpapercave.com/wp/exhooYI.jpg);
+        
+}
+
+.caixa {
+          justify-content: center;
+          margin: auto;
+          position: relative;
+          top: 80px;
+          color: white;
+          width: 500px;
+          border: 1px solid grey;
+          background-color: rgb(16, 16, 16);
+          border-radius: 5px;
+          padding: 50px;
+          box-shadow: purple 0px 15px 20px, purple 0px 5px 6px;
+          opacity: 1;
+}
+.main {
+          text-align: center;
+          list-style: none;
+}
+
+
+.nome , .rua {
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          font-size: 20px;
+}
+
+.cont, .edu, .cursos , .objetivo, .idioma {
+          font-family: monospace;
+          font-size: 20px;
+          list-style: none;  
+          
+}
+
+.cursos ul li {
+          list-style: none;
+}
