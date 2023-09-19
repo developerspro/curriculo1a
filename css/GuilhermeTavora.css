@@ -55,3 +55,9 @@ img {
 img:hover {
     border-color: antiquewhite;
 }
+.linha {
+    border: 5px;
+    border-style: double;
+    border-top: 10px ;
+    border-color: rgb(163, 211, 243);
+}
