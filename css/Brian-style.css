@@ -25,9 +25,9 @@ img {
 
 .container-conteudo {
     text-align: center;
-
     line-height: 1em;
-    width: auto;
+    width: 900px;
+    margin-left: 500;
 }
 h2 {
     font-weight: bold;
